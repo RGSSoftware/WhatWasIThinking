@@ -58,7 +58,7 @@ struct PhoneNumber: Equatable {
     }
 }
 ```
-If you're modeling your data equality with an id then this model gets the job done, but if you're not using an id then try using the struct's properties.
+If you're modeling your data equality with an id then this model gets the job done, but if you're not using an id then try using the struct's properties and a set for Contact's phoneNumbers and postalAddresses.
 
 ```swift
 struct Contact: Equatable {
